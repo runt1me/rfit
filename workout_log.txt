@@ -35,13 +35,13 @@ Incline Crunch
 Unweighted x15, 10x15
 
 Chinese Seamen
-Unweighted x60 seconds
+Unweighted x60
 
 Plank
-Unweighted x60 seconds
+Unweighted x60
 
 Rocky’s
-Unweighted x60 seconds
+Unweighted x60
 
 ============
 Tuesday 1/23 - Arms
@@ -69,19 +69,19 @@ Incline Crunch
 Unweighted x15, 10x10
 
 Chinese Seamen
-Unweighted x60 seconds
+Unweighted x60
 
 Plank
-Unweighted x60 seconds
+Unweighted x60
 
 Half-Rocky’s
-Unweighted x60 seconds
+Unweighted x60
 
 ==============
 Wednesday 1/24 - Chest
 
 Bench
-135x8, 135x8, 155x8, 155x8 (5)
+135x8, 135x8, 155x8, 155x5
 
 Dips
 3@Unweighted x10
@@ -111,7 +111,7 @@ Rear Delt Fly (machine)
 70x10, 85x10, 85x10
 
 Plank
-Unweighted x90 seconds
+Unweighted x90
 
 Incline Crunch
 Unweighted x15, 10x15
@@ -216,7 +216,7 @@ Push-up
 Unweighted x15, unweighted x15, unweighted x10
 
 Chinese Seamen
-Unweighted x90 seconds
+Unweighted x90
 
 Back Extension
 10x15, 25x10
@@ -309,17 +309,18 @@ Rear Delt Fly (machine)
 
 ============
 Friday 2/16 - Arms
-2 mile cardio 15:30
+
+Cardio
+2 miles @ 15:30
 
 Tricep Extension
-50, 55, 60x10
+50x10, 55x10, 60x10
 
 DB Bicep Curl
-2@30-25-20 drop x10
-25-20 drop x10
+2@30-25-20 drop x10, 25-20 drop x10
 
 Seated Row
-100, 110, 120x10
+100x10, 110x10, 120x10
 
 Tricep Rope Pushdown
 3@40-20 dropx10
@@ -331,10 +332,10 @@ Lat Pulldown
 Tuesday 2/20 - Chest
 
 DB Incline Bench
-45x8, 50x8, 55x8, 60x8 65x8 ALL CLEAN
+45x8, 50x8, 55x8, 60x8, 65x8
 
 Dips
-3 @unweighted x8
+3@unweighted x8
 
 Chest Press
 3@85-70-55 drop x8
@@ -358,7 +359,7 @@ Deadlift
 135x8, 135x8, 185x8, 185x8
 
 DB Shoulder Press
-35x12, 40x10, 40x10 CLEAN
+35x12, 40x10, 40x10
 
 Seated Row
 100, 110, 120 x12
@@ -402,7 +403,7 @@ DB lunge
 Monday 2/26 - Chest
 
 DB Bench Press
-Warmup 55x8, 70x8, 75x6, 80x5 (with spot)
+Warmup 55x8, 70x8, 75x6, 80x5
 
 Dips
 3@Unweighted x8
@@ -531,9 +532,7 @@ Incline Barbell Bench
 95x8, 115x8, 125x4
 
 Chest Press (machine)
-115-85-65 drop x10
-105-75-45 drop x8
-95-65-35 drop x8
+115-85-65 drop x10, 105-75-45 drop x8, 95-65-35 drop x8
 
 Pec Fly (Circular pad machine)
 80x8, 70x8, 70x8
@@ -662,9 +661,7 @@ Dips
 3@Unweighted x12
 
 Tricep Pushdown
-40-30-20 drop x10
-40-20 drop x10
-40-30-20 drop x10
+40-30-20 drop x10, 40-20 drop x10, 40-30-20 drop x10
 
 Incline Barbell Bench
 Warmup x10, 95x8, 95x8, 95x6
@@ -784,7 +781,7 @@ Seated Row
 100x10, 110x10, 120x10
 
 Barbell Upright Row
-65x10, 95x10 not clean, 95x6
+65x10, 95x10, 95x6
 
 Assisted Pull-up
 95x8, 80x8, 65x4
@@ -972,7 +969,7 @@ Dips
 3@Unweighted x12
 
 Tricep Rope Pushdown
-2@40-30-20 drop x10, 30xburnout
+2@40-30-20 drop x10, 30x10
 
 DB Lateral Raise
 3@20x10
