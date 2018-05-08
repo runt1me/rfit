@@ -28,6 +28,9 @@ def main():
     # v = type of workout at date k
     print Counter(workout_dict.values())
 
+    for date in exercise_dict.keys():
+        print '%s : %s' % (date, exercise_dict[date])
+
 def parse_workout(workout, workout_dict, exercise_dict):
     workout_lines = workout.split('\n')
     workout_lines = [line for line in workout_lines if line]
@@ -40,17 +43,21 @@ def parse_workout(workout, workout_dict, exercise_dict):
     
     # k = exercise name (including variation)
     # v = weight/rep single adjusted value
-    current_exercise = { }
+    exercises = { }
 
     for idx, line in enumerate(exercise_lines):
         if idx % 2 == 0:
             # exercise name
             exercise_name, exercise_variant = parse_exercise_name_line(line)
-            current_exercise[exercise_name] = 0
         else:
-            value = parse_reps_line(line, exercise_name)
-            pass
+            chart_value = parse_reps_line(line, exercise_name)
+            
+            if chart_value == -1:
+                continue
 
+            exercises[exercise_name] = chart_value
+
+    exercise_dict[date] = exercises
 
 def parse_title_line(title_line):
     date_slash = title_line.find('/')
@@ -110,6 +117,7 @@ def parse_reps_line(line, exercise_name):
 
     if 'cardio' in exercise_name.lower() or 'treadmill' in exercise_name.lower():
         print '[LOG] cardio parsing not yet implemented, so skipping'
+        return -1
 
     else:
         sets = parse_sets(line)
@@ -123,10 +131,7 @@ def parse_reps_line(line, exercise_name):
             max_weight      = s[0]
             max_weight_reps = s[1]
 
-
-    # TODO: get max weight for bench/squat/deadlift
-
-
+    return get_weight_for_charting(exercise_name, max_weight, max_weight_reps)
 
 def parse_sets(line):
     sets = []
@@ -172,8 +177,8 @@ def parse_sets(line):
             weight = set_expr[0:set_expr.find('x')]
             weight = int(weight)
         except:
-            if weight.strip().lower() == 'unweighted':
-                weight = 'unweighted'
+            if weight.strip().lower() == 'unweighted' or weight.strip().lower() == 'warmup':
+                weight = 0
 
             else:
                 print '[LOG] could not parse weight from set expression: %s' % set_expr
@@ -188,6 +193,39 @@ def parse_sets(line):
             sets.append((weight, reps))
 
     return sets
+
+def get_weight_for_charting(exercise_name, max_weight, max_weight_reps):
+    core_lifts = [
+        'barbell bench',
+        'deadlift',
+        'squat'
+    ]
+
+    for lift in core_lifts:
+        if lift in exercise_name.lower():
+            return max_chart_convert(max_weight, max_weight_reps)
+
+    return max_weight
+
+def max_chart_convert(max_weight, max_weight_reps):
+    # TODO: get max weight for bench/squat/deadlift
+    chart_file_lines = open('max_chart_bench_squat_deadlift.txt', 'r').read().split('\n')
+
+    reps_line = chart_file_lines[0]
+
+    # the column to lookup in the chart
+    # i.e. if you did 4 reps, look at column 3 in the grid
+    chart_column = max_weight_reps - 1
+    weights = [int(line.split()[0]) for line in chart_file_lines[1:]]
+
+    for idx, w in enumerate(weights):
+        if w == max_weight:
+            adjusted_max = float(chart_file_lines[idx+1].split()[chart_column])
+            return int(adjusted_max)
+
+    # fail case - something went wrong
+    print 'could not find max weight in chart'
+    return max_weight
 
 if __name__ == '__main__':
     main()
