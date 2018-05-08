@@ -208,7 +208,6 @@ def get_weight_for_charting(exercise_name, max_weight, max_weight_reps):
     return max_weight
 
 def max_chart_convert(max_weight, max_weight_reps):
-    # TODO: get max weight for bench/squat/deadlift
     chart_file_lines = open('max_chart_bench_squat_deadlift.txt', 'r').read().split('\n')
 
     reps_line = chart_file_lines[0]
