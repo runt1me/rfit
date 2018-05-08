@@ -4,7 +4,7 @@ Wednesday 1/17 - Chest
 Barbell Bench Press
 2@135x8, 2@155x8
 
-DB incline
+DB Incline Bench Press
 45x8, 50x8, 55x8, 60x8
 
 Wide chest press (machine)
@@ -53,17 +53,13 @@ Straight bar curl
 65x8, 65x8, 65x8, 65x8
 
 Tricep Rope Extension // DB hammer curl
-40-30-20 drop x10 // 25x10
-40-30-20 drop x10 // 25x10
-40-30-20 drop x10 // 30x8
+40-30-20 drop x10 // 25x10, 40-30-20 drop x10 // 25x10, 40-30-20 drop x10 // 30x8
 
 Seated Row (machine)
 85x10, 90x10, 100x10
 
 Wrist Curls // Reverse Wrist Curls
-15x20 // 15x20
-15x20 // 15x20
-15x20 // 15x20
+15x20 // 15x20, 15x20 // 15x20, 15x20 // 15x20
 
 Incline Crunch
 Unweighted x15, 10x10
@@ -74,13 +70,13 @@ Unweighted x60
 Plank
 Unweighted x60
 
-Half-Rocky’s
+Half-Rockys
 Unweighted x60
 
 ==============
 Wednesday 1/24 - Chest
 
-Bench
+Barbell Bench Press
 135x8, 135x8, 155x8, 155x5
 
 Dips
@@ -118,6 +114,7 @@ Unweighted x15, 10x15
 
 =============
 Monday 1/29 - Arms
+
 Tricep Extension
 45x10, 50x10, 55x10
 
@@ -125,9 +122,7 @@ Straight bar curl
 65x8, 65x8, 75x6
 
 Tricep Rope // DB Hammer curl
-40-20 drop x 10 // 25x10
-40-20 drop x 10 // 30x10
-40-20 drop x 10 // 30x8
+40-20 drop x 10 // 25x10, 40-20 drop x 10 // 30x10, 40-20 drop x 10 // 30x8
 
 Seated Row
 90x12, 100x12, 110x12
@@ -136,9 +131,7 @@ Split motion curls (10 low, 5 high)
 20x15, 20x15, 20x15
 
 Wrist Curls // Reverse Wrist Curls
-15x20 // 15x20
-15x20 // 15x20
-15x20 // 15x20
+15x20 // 15x20, 15x20 // 15x20, 15x20 // 15x20
 
 Incline Crunch
 Unweighted x15, 10x15
@@ -146,10 +139,10 @@ Unweighted x15, 10x15
 ==============
 Tuesday 1/30 - Chest
 
-Bench
+Barbell Bench Press
 135x8, 135x8, 135x8, 135x8, 135x8
 
-Incline DB bench
+Incline DB Bench Press
 45x8, 50x8, 55x8
 
 Pec Fly
@@ -200,10 +193,10 @@ Unweighted x4, unweighted x2
 ==============
 2/5 - Chest
 
-Bench
+Barbell Bench Press
 135x10, 135x10, 135x8
 
-Incline DB
+Incline DB Bench Press
 45x8, 50x8, 55x8
 
 Dips
@@ -270,23 +263,21 @@ DB Hammer Curl
 25x10, 2@30-25-20 drop x8
 
 Butler Box Jump
-3@Medium height x10
+3@Unweighted x10
 
 =============
 2/13 - Chest
 
-Bench
+Barbell Bench Press
 3@135x10, 2@135x8
 
 Pec Fly (machine)
 105x10, 120x10, 135x10, 145x10
 
 Chest Press (machine)
-90-80-60 drop x10
-85-75-60 drop x10
-85-70-40 drop x10
+90-80-60 drop x10, 85-75-60 drop x10, 85-70-40 drop x10
 
-DB Incline
+DB Incline Bench Press
 45x8, 45x8, 45x8
 
 ===============
@@ -331,7 +322,7 @@ Lat Pulldown
 ===============
 Tuesday 2/20 - Chest
 
-DB Incline Bench
+DB Incline Bench Press
 45x8, 50x8, 55x8, 60x8, 65x8
 
 Dips
@@ -374,9 +365,7 @@ Tricep Extension
 50x10, 55x10, 60x10
 
 Straight Bar Curl
-Warmup 45x10
-2@65x10
-75x8
+Warmup 45x10, 2@65x10, 75x8
 
 Tricep Rope Pushdown
 40-30-20 drop x10
@@ -403,7 +392,7 @@ DB lunge
 Monday 2/26 - Chest
 
 DB Bench Press
-Warmup 55x8, 70x8, 75x6, 80x5
+Warmup, 55x8, 70x8, 75x6, 80x5
 
 Dips
 3@Unweighted x8
@@ -471,7 +460,7 @@ Treadmill
 ==============
 Wednesday 3/7 - Chest
 
-Barbell Bench
+Barbell Bench Press
 Warmup x10, 135x10, 135x10, 135x8, 135x6
 
 Dips
@@ -501,7 +490,7 @@ Preacher Curl
 Seated Row
 100x10, 100x10, 120x10
 
-Close Grip Bench
+Close Grip Barbell Bench Press
 Warmup x10, 95x10, 115x10, 135x10
 
 DB Hammer Curl
@@ -513,7 +502,7 @@ Wednesday 3/14 - B&S
 DB shrug
 50x10, 60x10, 70x10
 
-Deadlift elevated
+Deadlift
 135x8, 135x8, 185x8, 185x8
 
 Alternating Lat Pulldown
@@ -528,7 +517,7 @@ DB lateral raise
 ==============
 Thursday 3/15 - Chest
 
-Incline Barbell Bench
+Incline Barbell Bench Press
 95x8, 115x8, 125x4
 
 Chest Press (machine)
@@ -591,7 +580,7 @@ Dips
 Pec Fly (circular pad machine)
 70x10, 75x10, 80x10
 
-Incline Barbell Bench
+Incline Barbell Bench Press
 95x10, 115x8, 115x8
 
 Crunch (machine)
@@ -663,7 +652,7 @@ Dips
 Tricep Pushdown
 40-30-20 drop x10, 40-20 drop x10, 40-30-20 drop x10
 
-Incline Barbell Bench
+Incline Barbell Bench Press
 Warmup x10, 95x8, 95x8, 95x6
 
 Pec Fly (circular pad machine)
@@ -727,7 +716,7 @@ Chest Press (free weight machine)
 70x10, 90x10, 100x6
 
 Crunch (machine)
-3@freestyle x12
+3@100x12
 
 ===========
 Friday 4/6 - PULL
@@ -759,7 +748,7 @@ Dips
 DB Shoulder Press
 35x8, 35x8, 40x10
 
-Incline DB Press
+Incline DB Bench Press
 45x8, 50x8, 55x6
 
 Tricep Rope Pushdown
@@ -815,7 +804,7 @@ Barbell Back Squat
 ============
 Friday 4/13 - PUSH
 
-Incline Barbell Bench
+Incline Barbell Bench Press
 Warmup x8, 95x8, 95x8, 115x8
 
 Dips
@@ -846,7 +835,10 @@ DB Hammer Curl
 25x10, 25x10, 30x10, 30x10
 
 Pull-up
-Unweighted x4, Negative x4, Negative x4
+3@Unweighted x4
+
+Pull-up (negative)
+2@Unweighted x4
 
 ==========
 Monday 4/16 - LEGS
@@ -869,7 +861,7 @@ Crunch (machine)
 ===========
 Tuesday 4/17 - PUSH
 
-Barbell Decline Bench Press
+Decline Barbell Bench Press
 95x8, 115x8, 135x8, 155x8, 165x5, 135x8
 
 Dips
@@ -962,7 +954,7 @@ Thursday 4/26 - PUSH
 Wolverine Crossover
 65x10, 80x10, 65x10, 80x10, 65x10, 80x10
 
-Incline Barbell Bench
+Incline Barbell Bench Press
 Warmup x8, 95x8, 115x8, 135x4, 135x4
 
 Dips

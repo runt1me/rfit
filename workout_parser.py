@@ -16,20 +16,49 @@ def main():
 
 
     workouts = [w for w in workouts if w]
-    parsed_workouts = []
+
+    bodypart_dict = {}
     workout_dict = {}
     exercise_dict = {}
 
     for w in workouts:
-        parsed_workouts.append(parse_workout(w, workout_dict, exercise_dict))
+        parse_workout(w, bodypart_dict, workout_dict)
 
     # workout_dict is a dictionary
     # k = workout date
     # v = type of workout at date k
-    print Counter(workout_dict.values())
+    print Counter(bodypart_dict.values())
+    
+    for date in sorted(workout_dict.iterkeys()):
+        #print '%s : %s' % (date, workout_dict[date])
+        for exercise in workout_dict[date].keys():
+            if exercise not in exercise_dict:
+                exercise_dict[exercise] = []
+            exercise_dict[exercise].append((date, workout_dict[date][exercise]))
 
-    for date in exercise_dict.keys():
-        print '%s : %s' % (date, exercise_dict[date])
+    """
+    for ex in sorted(exercise_dict.iterkeys()):
+        if 'squat' in ex.lower() or 'bench' in ex.lower() or 'deadlift' in ex.lower():
+            print '%s : %s' % (ex, exercise_dict[ex])
+    """
+    
+    output_file = open("out.csv", "w")
+    
+    for ex in sorted(exercise_dict.iterkeys()):
+        exercise_list = exercise_dict[ex]
+
+        for date, weight in exercise_list:
+            date_str = date.strftime("%m/%d/%y")
+            try:
+                int(weight)
+            except:
+                continue
+
+            output_file.write("%s,%s,%d\n" % (ex, date_str, weight))
+
+
+
+
 
 def parse_workout(workout, workout_dict, exercise_dict):
     workout_lines = workout.split('\n')
@@ -223,7 +252,7 @@ def max_chart_convert(max_weight, max_weight_reps):
             return int(adjusted_max)
 
     # fail case - something went wrong
-    print 'could not find max weight in chart'
+    print '[LOG] could not find max weight in chart, using unadjusted weight'
     return max_weight
 
 if __name__ == '__main__':
